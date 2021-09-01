@@ -1,11 +1,11 @@
-.skillsBlock {
-    background-color: #dcfde8;
+.projectsBlock {
+    background-color: #f0e1fe;
 }
 .container {
     flex-direction: column;
     justify-content: center;
 }
-.skills {
+.projects {
     display: flex;
     width: 100%;
     justify-content: space-around;

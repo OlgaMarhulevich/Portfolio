@@ -4,7 +4,7 @@ import styleContainer from '../common/styles/container.module.css'
 import styleWrapper from '../common/styles/wrapper.module.css'
 
 function Home() {
-    return <div className={`${s.home} ${styleWrapper.wrapper}`}>
+    return <div className={`${s.home} ${styleWrapper.wrapper}`} id={'home'}>
         <div className={styleContainer.container}>
             <div className={s.greeting}>
                 <h1 className={s.title}>Hi, I’m <span>Olga Marhulevich</span>

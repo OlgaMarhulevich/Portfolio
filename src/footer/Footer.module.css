@@ -1,5 +1,17 @@
-.footer {
-    margin-top: auto;
-    height: 30px;
-    background-color: indianred;
+.footerBlock {
+    background-color: #eafde3;
+    height: 150px;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+    border: 1px solid grey;
+}
+.imgBox {
+    height: 50px;
+    width: 50px;
+
+    background-color: #d28b8b;
 }

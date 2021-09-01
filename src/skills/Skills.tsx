@@ -18,9 +18,9 @@ function Skills() {
     const skills = skillsArray.map(s =>
         <SkillElement img={s.img} title={s.title} description={s.description}/>)
 
-    return <div className={`${s.skillsBack} ${styleWrapper.wrapper}`}>
+    return <div className={`${s.skillsBlock} ${styleWrapper.wrapper}`} id={'skills'}>
         <div className={`${styleContainer.container} ${s.container}`}>
-            <div className={s.title}>
+            <div>
                 <h2>My skills</h2>
             </div>
             <div className={s.skills}>
