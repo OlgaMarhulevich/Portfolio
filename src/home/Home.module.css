@@ -1,0 +1,14 @@
+.home {
+    background-color: #fddde8;
+}
+/*GREETING*/
+.greeting {
+    background-color: #e1dbdb;
+    width: 300px;
+}
+/*PHOTO*/
+.photo {
+    background-color: #e1dbdb;
+    height: 400px;
+    width: 300px;
+}

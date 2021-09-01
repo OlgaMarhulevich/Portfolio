@@ -1,0 +1,7 @@
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: rgba(101, 198, 208, 0.42);
+    height: 80px;
+}

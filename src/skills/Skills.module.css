@@ -1,0 +1,13 @@
+.skillsBack {
+    background-color: #dcfde8;
+}
+.container {
+    flex-direction: column;
+    justify-content: center;
+}
+.skills {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
