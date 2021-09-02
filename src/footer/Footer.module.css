@@ -1,17 +1,20 @@
 .footerBlock {
     background-color: #eafde3;
-    height: 150px;
+    min-height: 150px;
+
 }
-.links {
+.linksBox {
     display: flex;
-    justify-content: space-between;
-    width: 50%;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
 
     border: 1px solid grey;
 }
 .imgBox {
-    height: 50px;
-    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    margin: 15px;
 
     background-color: #d28b8b;
 }

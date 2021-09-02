@@ -9,7 +9,7 @@ type SkillPropsType = {
 
 function ProjectElement(props: SkillPropsType) {
     return <div className={s.skillBlock}>
-        <div style={{backgroundColor: props.img}} className={s.imgBlock}>
+        <div style={{backgroundImage: `url("${props.img}")`}} className={s.imgBlock}>
             <button className={s.btn}>SHOW</button>
         </div>
         <div className={s.descriptionBox}>

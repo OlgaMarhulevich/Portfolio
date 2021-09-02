@@ -13,10 +13,18 @@
     justify-content: center;
     align-items: center;
     height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-color: #eec2c2;
 }
 .descriptionBox {
     text-align: center;
 }
 .btn {
     padding: 7px 40px;
+    opacity: 0.5;
+}
+.btn:hover {
+    cursor: pointer;
+    opacity: 1;
 }

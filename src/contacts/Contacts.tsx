@@ -11,7 +11,9 @@ function Contacts() {
                 <input/>
                 <input/>
                 <textarea/>
-                <button>SEND MESSAGE</button>
+                <div className={s.btnBox}>
+                    <button>SEND MESSAGE</button>
+                </div>
             </form>
         </div>
     </div>
