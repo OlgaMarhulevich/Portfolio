@@ -1,0 +1,50 @@
+.projectBlock {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #3f3f3f;
+}
+.imgBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+.imgBlock::before {
+    content: '';
+    position: absolute;
+    background-color: #212529;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+    z-index: 1;
+}
+.descriptionBox {
+    text-align: center;
+    background-color: #343a40;
+    border-radius: 0 0 10px 10px;
+}
+.descriptionBox h3 {
+    color: #dfdfdf;
+}
+.btn {
+    border: none;
+    background-color: #212529;
+    border-radius: 7px;
+    padding: 10px 50px;
+    opacity: 0.7;
+    color: white;
+    z-index: 3;
+}
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}

@@ -2,6 +2,6 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    background-color: rgba(101, 198, 208, 0.42);
+    background-color: rgb(33, 37, 41);
     height: 80px;
 }

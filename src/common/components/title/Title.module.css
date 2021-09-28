@@ -1,18 +1,8 @@
-.projectsBlock {
-}
-.container {
-    flex-direction: column;
-    justify-content: center;
-}
-.projects {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
 .title {
     text-transform: capitalize;
     position: relative;
+    margin: 0 0 50px 0;
+    color: #e0e0e0;
 }
 .title::before {
     content: '';
@@ -20,7 +10,7 @@
     background-color: #cec41d;
     width: 55px;
     height: 2px;
-    bottom: -20px;
+    bottom: -15px;
     left: 50%;
     transform: translate(-50%, 50%);
 }

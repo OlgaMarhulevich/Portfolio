@@ -4,4 +4,6 @@
     align-items: center;
     min-height: 100vh;
     box-sizing: border-box;
+    background-color: #212529;
+    color: #8f9193;
 }

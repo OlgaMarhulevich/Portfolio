@@ -3,6 +3,7 @@ import s from './Skills.module.css'
 import styleContainer from '../common/styles/container.module.css'
 import SkillElement from "./skillElement/SkillElement";
 import styleWrapper from "../common/styles/wrapper.module.css";
+import Title from "../common/components/title/Title";
 
 type SkillType = {
     img: string,
@@ -20,9 +21,7 @@ function Skills() {
 
     return <div className={`${s.skillsBlock} ${styleWrapper.wrapper}`} id={'skills'}>
         <div className={`${styleContainer.container} ${s.container}`}>
-            <div>
-                <h2 className={s.title}>My skills</h2>
-            </div>
+            <Title title={'my skills'}/>
             <div className={s.skills}>
                 {skills}
             </div>
