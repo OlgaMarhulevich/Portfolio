@@ -1,0 +1,33 @@
+@import "../common/sass/variables";
+@import "../common/sass/mixins";
+
+.projectsBlock {
+    @include wrapper($backgroundColorDark);
+
+    .container {
+        @include container();
+
+        .projects {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .title {
+            text-transform: capitalize;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                background-color: #cec41d;
+                width: 55px;
+                height: 2px;
+                bottom: -20px;
+                left: 50%;
+                transform: translate(-50%, 50%);
+            }
+        }
+    }
+}

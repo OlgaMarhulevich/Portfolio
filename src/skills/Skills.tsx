@@ -1,8 +1,6 @@
 import React from 'react';
-import s from './Skills.module.css'
-import styleContainer from '../common/styles/container.module.css'
+import s from './Skills.module.scss'
 import SkillElement from "./skillElement/SkillElement";
-import styleWrapper from "../common/styles/wrapper.module.css";
 import Title from "../common/components/title/Title";
 
 type SkillType = {
@@ -19,8 +17,8 @@ function Skills() {
     const skills = skillsArray.map(s =>
         <SkillElement key={s.title} img={s.img} title={s.title} description={s.description}/>)
 
-    return <div className={`${s.skillsBlock} ${styleWrapper.wrapper}`} id={'skills'}>
-        <div className={`${styleContainer.container} ${s.container}`}>
+    return <div className={`${s.skillsBlock}`} id={'skills'}>
+        <div className={s.container}>
             <Title title={'my skills'}/>
             <div className={s.skills}>
                 {skills}

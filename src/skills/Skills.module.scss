@@ -1,0 +1,18 @@
+@import "../common/sass/variables";
+@import "../common/sass/mixins";
+
+.skillsBlock {
+  @include wrapper($backgroundColorLight);
+
+  .container {
+    @include container();
+
+    .skills {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  }
+}
+

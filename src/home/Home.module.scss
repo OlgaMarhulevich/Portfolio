@@ -1,0 +1,33 @@
+@import "../common/sass/variables";
+@import "../common/sass/mixins";
+
+.home {
+  @include wrapper($backgroundColorDark);
+
+  .container {
+    @include container();
+    flex-direction: row;
+    justify-content: space-around;
+
+    .greeting {
+      background-color: #ffffff;
+      width: 300px;
+      margin-top: 20px;
+
+      .title {
+        background-color: #ead5d5;
+      }
+
+      .description {
+        background-color: #ead5d5;
+      }
+    }
+
+    .photo {
+      background-color: #e1dbdb;
+      height: 400px;
+      width: 300px;
+      margin: 10px;
+    }
+  }
+}

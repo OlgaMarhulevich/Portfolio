@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './SkillElement.module.css'
+import s from './SkillElement.module.scss'
 
 type SkillPropsType = {
     img: string,

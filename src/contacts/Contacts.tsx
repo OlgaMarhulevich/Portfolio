@@ -1,12 +1,10 @@
 import React from 'react';
-import s from './Contacts.module.css'
-import styleContainer from '../common/styles/container.module.css'
-import styleWrapper from '../common/styles/wrapper.module.css'
+import s from './Contacts.module.scss'
 import Title from "../common/components/title/Title";
 
 function Contacts() {
-    return <div className={`${s.contactsBlock} ${styleWrapper.wrapper}`} id={'contacts'}>
-        <div className={`${styleContainer.container} ${s.container}`}>
+    return <div className={s.contactsBlock} id={'contacts'}>
+        <div className={s.container}>
             <Title title={'contacts'}/>
             <form className={s.form}>
                 <input/>

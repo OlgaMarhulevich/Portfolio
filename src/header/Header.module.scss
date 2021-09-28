@@ -1,7 +1,9 @@
+@import "../common/sass/variables";
+
 .header {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    background-color: rgb(33, 37, 41);
+    background-color: $backgroundColorDark;
     height: 80px;
 }

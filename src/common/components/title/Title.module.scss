@@ -1,0 +1,19 @@
+@import "./src/common/sass/variables";
+.title {
+  text-transform: capitalize;
+  position: relative;
+  margin: 0 0 50px 0;
+  color: $titleColor;
+
+  &::before {
+    content: '';
+    position: absolute;
+    background-color: $mainColor;
+    width: 55px;
+    height: 2px;
+    bottom: -15px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+
+}
