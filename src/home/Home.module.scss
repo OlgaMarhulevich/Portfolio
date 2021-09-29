@@ -1,33 +1,41 @@
 @import "../common/sass/variables";
 @import "../common/sass/mixins";
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
 
 .home {
   @include wrapper($backgroundColorDark);
+  background-position: center;
+  background-size: cover;
 
   .container {
     @include container();
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
 
     .greeting {
-      background-color: #ffffff;
-      width: 300px;
       margin-top: 20px;
 
       .title {
-        background-color: #ead5d5;
+        font-size: 3em;
+
+        .name {
+          color: $mainColor;
+          font-family: 'Merienda', cursive;
+        }
       }
 
-      .description {
-        background-color: #ead5d5;
-      }
-    }
+      .dev {
+        font-size: 2em;
+        font-weight: normal;
 
-    .photo {
-      background-color: #e1dbdb;
-      height: 400px;
-      width: 300px;
-      margin: 10px;
+      }
+
+      @media screen and (max-width: 1000px) {
+        .title, .dev {
+          font-size: 2em;
+          margin: 0 50px;
+        }
+      }
     }
   }
 }

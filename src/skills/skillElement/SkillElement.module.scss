@@ -1,12 +1,9 @@
+@import "src/common/sass/variables";
 .skillBlock {
-    border: 1px solid grey;
     display: flex;
     flex-direction: column;
-
     margin: 10px;
-
-    width: 250px;
-    background-color: #e1e7e4;
+    width: 100px;
 
     .titleBlock {
         display: flex;
@@ -17,7 +14,12 @@
         .imgBox {
             height: 50px;
             width: 50px;
-            background-color: #d28b8b;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .title {
+            color: $titleColor;
         }
     }
 }

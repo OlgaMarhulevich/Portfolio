@@ -1,0 +1,39 @@
+@import "../common/sass/variables";
+@import "../common/sass/mixins";
+
+.aboutBlock {
+  @include wrapper($backgroundColorDark);
+
+  .container {
+    @include container();
+
+    .contentAbout {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .img {
+        width: 400px;
+        height: 300px;
+        margin: 15px;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0 0 10px rgba(190, 190, 190, 0.53);
+      }
+
+      .description {
+        max-width: 600px;
+        text-align: justify;
+        margin: 15px;
+      }
+
+    }
+
+    }
+  }
+
+
+
+
+

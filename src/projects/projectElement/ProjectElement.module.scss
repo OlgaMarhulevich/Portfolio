@@ -4,8 +4,7 @@
   flex-direction: column;
   margin: 20px;
   width: 500px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px #3f3f3f;
+  box-shadow: 0 0 10px #2f2f2f;
 
   .imgBlock {
     display: flex;
@@ -14,7 +13,6 @@
     height: 250px;
     background-position: center;
     background-size: cover;
-    border-radius: 10px 10px 0 0;
     position: relative;
 
     &::before {
@@ -48,7 +46,6 @@
   .descriptionBox {
     text-align: center;
     background-color: #343a40;
-    border-radius: 0 0 10px 10px;
 
     h3 {
       color: $titleColor;

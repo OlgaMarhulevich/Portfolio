@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Projects.module.scss'
 import Title from "../common/components/title/Title";
 import ProjectElement from "./projectElement/ProjectElement";
-import project from '../common/images/project.jpg'
+import project from '../common/images/projects/project.jpg'
 
 type ProjectType = {
     img: string,
