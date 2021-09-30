@@ -51,6 +51,7 @@
           color: $titleColor;
           z-index: 3;
           border: 1px solid rgba(0, 0, 0, 0);
+          box-sizing: border-box;
 
           &:hover {
             cursor: pointer;
