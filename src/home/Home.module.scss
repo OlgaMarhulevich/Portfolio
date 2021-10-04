@@ -6,6 +6,7 @@
   @include wrapper($backgroundColorDark);
   background-position: center;
   background-size: cover;
+  background-image: url("../common/images/photos/home.jpg");
 
   .container {
     @include container();
@@ -30,12 +31,32 @@
 
       }
 
-      @media screen and (max-width: 1000px) {
+      .linksBox {
+        width: 300px;
+      }
+
+      @media (min-width: 490px) and (max-width: 1000px) {
         .title, .dev {
           font-size: 2em;
           margin: 0 50px;
         }
+        .linksBox {
+          margin: 0 50px;
+        }
+      }
+      @media screen and (max-width: 490px) {
+        .title, .dev {
+          font-size: 1.5em;
+          margin: 0 25px;
+        }
+        .linksBox {
+          margin: 0 25px;
+        }
       }
     }
+  }
+
+  @media screen and (max-width: 750px) {
+    background-image: none;
   }
 }

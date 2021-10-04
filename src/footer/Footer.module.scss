@@ -7,31 +7,6 @@
   flex-direction: column;
   justify-content: flex-end;
 
-  .linksBox {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    * {
-      font-size: 1.4em;
-      margin: 5px;
-    }
-
-    .imgBox {
-      background-color: #fdfdfe;
-      border-radius: 50%;
-      width: 30px;
-      height: 30px;
-      .img {
-        margin: 0;
-        width: 100%;
-        height: 100%;
-        background-position: center;
-        background-size: cover;
-      }
-    }
-  }
-
   .copyRight {
     font-size: 0.7em;
   }

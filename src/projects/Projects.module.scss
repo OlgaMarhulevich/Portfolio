@@ -10,24 +10,8 @@
         .projects {
             display: flex;
             width: 100%;
-            justify-content: space-around;
+            justify-content: center;
             flex-wrap: wrap;
-        }
-
-        .title {
-            text-transform: capitalize;
-            position: relative;
-
-            &::before {
-                content: '';
-                position: absolute;
-                background-color: #cec41d;
-                width: 55px;
-                height: 2px;
-                bottom: -20px;
-                left: 50%;
-                transform: translate(-50%, 50%);
-            }
         }
     }
 }

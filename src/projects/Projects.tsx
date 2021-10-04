@@ -14,6 +14,7 @@ function Projects() {
         {img: `${project}`, title: 'Project', description: 'something'},
         {img: `${project}`, title: 'TodoList', description: 'something'},
         {img: `${project}`, title: 'Social Network', description: 'something'},
+        {img: `${project}`, title: 'Counter', description: 'something'},
     ]
     const projects = projectsArray.map(p =>
         <ProjectElement key={p.title} img={p.img} title={p.title} description={p.description}/>)
